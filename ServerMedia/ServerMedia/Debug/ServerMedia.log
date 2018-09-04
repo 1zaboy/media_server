@@ -1,0 +1,9 @@
+﻿  Client.cpp
+  Program.cpp
+  Server.cpp
+  Создание кода...
+Program.obj : error LNK2005: "public: __thiscall Client::Client(unsigned int,struct sockaddr_in)" (??0Client@@QAE@IUsockaddr_in@@@Z) уже определен в Client.obj
+Program.obj : error LNK2005: "public: __thiscall Client::~Client(void)" (??1Client@@QAE@XZ) уже определен в Client.obj
+Program.obj : error LNK2005: "public: void __thiscall Client::handle(void)" (?handle@Client@@QAEXXZ) уже определен в Client.obj
+Program.obj : error LNK2005: "public: void __thiscall Client::stop(void)" (?stop@Client@@QAEXXZ) уже определен в Client.obj
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\ServerMedia\Debug\ServerMedia.exe : fatal error LNK1169: обнаружен многократно определенный символ - один или более
